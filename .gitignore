@@ -1,0 +1,12 @@
+# --- Java Standard ---
+*.class
+
+# --- IntelliJ IDEA ---
+out/
+target/
+.idea/
+*.iws
+*.iml
+
+# --- System ---
+.DS_Store
