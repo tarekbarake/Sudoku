@@ -26,10 +26,3 @@ Empty cells are represented with `0`. The solver tries values `1..9` and uses ro
    - Not in the same 3×3 box
 5. If valid, place it and continue recursively.
 6. If later it leads to a dead end, reset the cell back to `0` (**backtrack**) and try the next number.
-
----
-
-## Project Structure
-```txt
-.
-└── SudokuSolver.java
